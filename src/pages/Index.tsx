@@ -6,6 +6,7 @@ import HeroSection from '@/components/HeroSection';
 import FeaturedProducts from '@/components/FeaturedProducts';
 import CategoryShowcase from '@/components/CategoryShowcase';
 import PromoBanner from '@/components/PromoBanner';
+import AboutUs from '@/components/AboutUs';
 
 const Index = () => {
   return (
@@ -22,6 +23,7 @@ const Index = () => {
           <FeaturedProducts />
           <CategoryShowcase />
           <PromoBanner />
+          <AboutUs />
         </main>
         <Footer />
       </div>
