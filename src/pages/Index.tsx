@@ -1,13 +1,31 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { Helmet } from 'react-helmet';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import HeroSection from '@/components/HeroSection';
+import FeaturedProducts from '@/components/FeaturedProducts';
+import CategoryShowcase from '@/components/CategoryShowcase';
+import PromoBanner from '@/components/PromoBanner';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <>
+      <Helmet>
+        <title>VELOCITY - Future-Forward Apparel & Footwear</title>
+        <meta name="description" content="Discover cutting-edge apparel, shoes, and accessories designed for performance and style at VELOCITY." />
+      </Helmet>
+
+      <div className="flex flex-col min-h-screen">
+        <Navbar />
+        <main className="flex-grow">
+          <HeroSection />
+          <FeaturedProducts />
+          <CategoryShowcase />
+          <PromoBanner />
+        </main>
+        <Footer />
       </div>
-    </div>
+    </>
   );
 };
 
