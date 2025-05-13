@@ -1,6 +1,6 @@
 
 import { motion } from 'framer-motion';
-import { Folder, Section, Images, Gallery } from 'lucide-react';
+import { Folder, Section, Images, GalleryVertical } from 'lucide-react';
 
 const Features = () => {
   const features = [
@@ -20,7 +20,7 @@ const Features = () => {
       description: 'Limited-edition pieces and collaborations with emerging designers pushing the boundaries of fashion.'
     },
     {
-      icon: <Gallery className="w-10 h-10 text-primary" />,
+      icon: <GalleryVertical className="w-10 h-10 text-primary" />,
       title: 'Seamless Experience',
       description: "From browsing to unboxing, we've optimized every touchpoint for a frictionless journey."
     }
