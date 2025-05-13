@@ -22,7 +22,7 @@ const Features = () => {
     {
       icon: <Gallery className="w-10 h-10 text-primary" />,
       title: 'Seamless Experience',
-      description: 'From browsing to unboxing, we've optimized every touchpoint for a frictionless journey.'
+      description: "From browsing to unboxing, we've optimized every touchpoint for a frictionless journey."
     }
   ];
 

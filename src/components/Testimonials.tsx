@@ -28,7 +28,7 @@ const testimonials = [
     name: 'Jasmine Taylor',
     position: 'Professional Athlete',
     image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000',
-    content: 'The NeoTech Basketball Shoes offer incredible ankle support and grip. They've significantly improved my game performance on the court.',
+    content: "The NeoTech Basketball Shoes offer incredible ankle support and grip. They've significantly improved my game performance on the court.",
     rating: 5
   }
 ];
