@@ -1,4 +1,3 @@
-
 import { Product } from "@/types";
 
 export const products: Product[] = [
@@ -47,6 +46,39 @@ export const products: Product[] = [
     colors: ["red", "black", "white"],
     rating: 4.6,
   },
+  
+  // New Shoes
+  {
+    id: "9",
+    name: "Alpine Trail Hikers",
+    price: 189.99,
+    description: "Conquer any terrain with our Alpine Trail Hikers. Waterproof construction, reinforced toe protection, and aggressive tread pattern for ultimate stability on rough trails.",
+    category: "shoes",
+    images: [
+      "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?q=80&w=1000",
+      "https://images.unsplash.com/photo-1553532434-5ab5b6b84993?q=80&w=1000",
+    ],
+    sizes: ["7", "8", "9", "10", "11", "12"],
+    colors: ["brown", "gray", "olive"],
+    rating: 4.5,
+  },
+  {
+    id: "10",
+    name: "Urban Street Sneakers",
+    price: 149.99,
+    description: "The perfect fusion of comfort and street style, our Urban Street Sneakers feature premium materials and subtle design details that elevate any casual outfit.",
+    category: "shoes",
+    images: [
+      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=1000",
+      "https://images.unsplash.com/photo-1527090526205-beaac8dc3c62?q=80&w=1000",
+    ],
+    sizes: ["6", "7", "8", "9", "10", "11", "12"],
+    colors: ["white", "black", "navy"],
+    isNew: true,
+    rating: 4.9,
+  },
+  
+  // Existing Clothing
   {
     id: "4",
     name: "Apex Tech Jacket",
@@ -78,6 +110,68 @@ export const products: Product[] = [
     rating: 4.5,
   },
   {
+    id: "7",
+    name: "Echo Performance Tee",
+    price: 49.99,
+    description: "Engineered for comfort and performance, our Echo tee features moisture-wicking fabric, seamless construction, and UV protection. Perfect for training or casual wear.",
+    category: "clothing",
+    images: [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1000",
+      "https://images.unsplash.com/photo-1622445275463-afa2ab738c34?q=80&w=1000",
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["black", "white", "gray", "blue"],
+    rating: 4.4,
+  },
+  
+  // New Clothing
+  {
+    id: "11",
+    name: "Flux Athletic Shorts",
+    price: 79.99,
+    description: "Lightweight and flexible shorts with integrated compression layer. Features quick-dry technology, hidden zippered pocket, and reflective details for visibility.",
+    category: "clothing",
+    images: [
+      "https://images.unsplash.com/photo-1565084888279-aca607ecce0c?q=80&w=1000",
+      "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=1000",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["black", "navy", "gray"],
+    rating: 4.7,
+  },
+  {
+    id: "12",
+    name: "Thermal Base Layer",
+    price: 89.99,
+    description: "Advanced thermal regulation technology keeps you warm without overheating. Four-way stretch fabric moves with your body while wicking moisture away from skin.",
+    category: "clothing",
+    images: [
+      "https://images.unsplash.com/photo-1564379976409-79bd0786fff1?q=80&w=1000",
+      "https://images.unsplash.com/photo-1574180566232-aaad1b5b8450?q=80&w=1000",
+    ],
+    sizes: ["XS", "S", "M", "L", "XL", "XXL"],
+    colors: ["black", "blue", "gray", "red"],
+    isFeatured: true,
+    rating: 4.8,
+  },
+  {
+    id: "13",
+    name: "Vector Windbreaker",
+    price: 139.99,
+    description: "Ultralight, packable windbreaker with water-resistant coating. Packs into its own pocket for easy storage and features reflective geometric patterns.",
+    category: "clothing",
+    images: [
+      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=1000",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=1000",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["blue", "black", "neon"],
+    isNew: true,
+    rating: 4.6,
+  },
+  
+  // Existing Accessories
+  {
     id: "6",
     name: "Fusion Smartwatch",
     price: 349.99,
@@ -93,20 +187,6 @@ export const products: Product[] = [
     rating: 4.7,
   },
   {
-    id: "7",
-    name: "Echo Performance Tee",
-    price: 49.99,
-    description: "Engineered for comfort and performance, our Echo tee features moisture-wicking fabric, seamless construction, and UV protection. Perfect for training or casual wear.",
-    category: "clothing",
-    images: [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1000",
-      "https://images.unsplash.com/photo-1622445275463-afa2ab738c34?q=80&w=1000",
-    ],
-    sizes: ["S", "M", "L", "XL", "XXL"],
-    colors: ["black", "white", "gray", "blue"],
-    rating: 4.4,
-  },
-  {
     id: "8",
     name: "Vertex Backpack",
     price: 129.99,
@@ -120,5 +200,50 @@ export const products: Product[] = [
     colors: ["black", "gray"],
     isNew: true,
     rating: 4.8,
+  },
+  
+  // New Accessories
+  {
+    id: "14",
+    name: "Precision Training Gloves",
+    price: 44.99,
+    description: "Enhanced grip training gloves with integrated wrist support. Silicon palm patterns provide maximum traction for weightlifting and cross-training.",
+    category: "accessories",
+    images: [
+      "https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?q=80&w=1000",
+      "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?q=80&w=1000",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["black", "red", "blue"],
+    rating: 4.6,
+  },
+  {
+    id: "15",
+    name: "Hydro Performance Water Bottle",
+    price: 39.99,
+    description: "Double-walled vacuum insulated bottle keeps drinks cold for 24 hours or hot for 12. Features time markers to track hydration and a leak-proof flip top.",
+    category: "accessories",
+    images: [
+      "https://images.unsplash.com/photo-1602143407151-7111542de6e8?q=80&w=1000",
+      "https://images.unsplash.com/photo-1625708458528-afbcb7a86a80?q=80&w=1000",
+    ],
+    sizes: ["One Size"],
+    colors: ["black", "steel", "blue", "green"],
+    isNew: true,
+    rating: 4.9,
+  },
+  {
+    id: "16",
+    name: "Performance Compression Socks",
+    price: 24.99,
+    description: "Graduated compression improves circulation during intense activity. Moisture-wicking fabric with targeted arch support and reinforced heel and toe.",
+    category: "accessories",
+    images: [
+      "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?q=80&w=1000",
+      "https://images.unsplash.com/photo-1589902860314-e910697dea18?q=80&w=1000",
+    ],
+    sizes: ["S", "M", "L"],
+    colors: ["black", "white", "blue", "gray"],
+    rating: 4.7,
   }
 ];
