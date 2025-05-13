@@ -7,6 +7,9 @@ import FeaturedProducts from '@/components/FeaturedProducts';
 import CategoryShowcase from '@/components/CategoryShowcase';
 import PromoBanner from '@/components/PromoBanner';
 import AboutUs from '@/components/AboutUs';
+import Testimonials from '@/components/Testimonials';
+import Features from '@/components/Features';
+import BlogPreview from '@/components/BlogPreview';
 
 const Index = () => {
   return (
@@ -20,8 +23,11 @@ const Index = () => {
         <Navbar />
         <main className="flex-grow">
           <HeroSection />
+          <Features />
           <FeaturedProducts />
           <CategoryShowcase />
+          <Testimonials />
+          <BlogPreview />
           <PromoBanner />
           <AboutUs />
         </main>
